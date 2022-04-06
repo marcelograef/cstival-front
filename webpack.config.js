@@ -250,7 +250,8 @@ module.exports = {
 		historyApiFallback: {
 			index: '/'
 		},
-		open: true
+		open: true,
+		allowedHosts: 'all'
 	},
 	stats: 'errors-only',
 	performance: {
