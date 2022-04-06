@@ -1,0 +1,436 @@
+{
+  "hash": "4f131827e5037a0e574e",
+  "publicPath": "/",
+  "outputPath": "/Users/marcelograef/Desktop/Programacion/cstival/frontend/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.4f131827e5037a0e574e.css",
+      "main.3f730c64e8078b61b74c.bundle.js"
+    ],
+    "runtime~main": [
+      "runtime~main.64f7824a08751c9bbeca.bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.3f730c64e8078b61b74c.bundle.js",
+      "size": 546233,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "3f730c64e8078b61b74c",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.3f730c64e8078b61b74c.bundle.js.LICENSE.txt"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "20eb4f55200cfcd685ca.ico",
+      "size": 24838,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/assets/favicon.ico",
+        "immutable": true,
+        "contenthash": "20eb4f55200cfcd685ca"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/favicon.ico",
+      "size": 24838,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/favicon.ico"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/SoloLogo.png",
+      "size": 22423,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/SoloLogo.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.4f131827e5037a0e574e.css",
+      "size": 17844,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "fullhash": "4f131827e5037a0e574e"
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/icon-512x512.png",
+      "size": 8604,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/icon-512x512.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/Logo-transparente.svg",
+      "size": 8599,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/Logo-transparente.svg"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/Solo-Letras.svg",
+      "size": 5669,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/Solo-Letras.svg"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/react.svg",
+      "size": 4498,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/react.svg"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/SoloLogo.svg",
+      "size": 3365,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/SoloLogo.svg"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/locale/de.po",
+      "size": 1987,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/locale/de.po"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/locale/translations.pot",
+      "size": 1758,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/locale/translations.pot"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/styles/mixins.scss",
+      "size": 1666,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/styles/mixins.scss"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/styles/app.scss",
+      "size": 1582,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/styles/app.scss"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "runtime~main.64f7824a08751c9bbeca.bundle.js",
+      "size": 1500,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "64f7824a08751c9bbeca",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "runtime~main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        303
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "./index.html",
+      "size": 1370,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/locale/de.json",
+      "size": 1333,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/locale/de.json"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/locale/translations.json",
+      "size": 1153,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/locale/translations.json"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/styles/functions.scss",
+      "size": 681,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/styles/functions.scss"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "assets/styles/settings.scss",
+      "size": 467,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/styles/settings.scss"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        303,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime~main.64f7824a08751c9bbeca.bundle.js"
+        },
+        {
+          "name": "main.4f131827e5037a0e574e.css"
+        },
+        {
+          "name": "main.3f730c64e8078b61b74c.bundle.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 179,
+      "files": [
+        "main.4f131827e5037a0e574e.css",
+        "main.3f730c64e8078b61b74c.bundle.js"
+      ]
+    },
+    {
+      "id": 303,
+      "files": [
+        "runtime~main.64f7824a08751c9bbeca.bundle.js"
+      ]
+    }
+  ]
+}
