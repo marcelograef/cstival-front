@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound component should render successfully 1`] = `
+<Wrapper>
+  <div
+    className="c-not-found"
+  >
+    404
+    <br />
+    Page not found
+  </div>
+</Wrapper>
+`;

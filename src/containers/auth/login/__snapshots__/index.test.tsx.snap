@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component should render successfully 1`] = `
+<Wrapper
+  className="o-wrapper--fancy"
+>
+  <LoginForm
+    onSubmit={[Function]}
+  >
+    <p
+      className="c-form__hint"
+    >
+      Don't have an account?
+       
+      <Link
+        to="/signup"
+      >
+        Sign up
+      </Link>
+    </p>
+    <p
+      className="c-form__hint"
+    >
+      Forgot password?
+       
+      <Link
+        to="/reset-password"
+      >
+        Reset password
+      </Link>
+    </p>
+  </LoginForm>
+</Wrapper>
+`;

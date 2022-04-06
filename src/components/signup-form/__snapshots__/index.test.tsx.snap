@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupForm component should render successfully 1`] = `
+<form
+  className="c-form c-form--signup"
+  onSubmit={[Function]}
+>
+  <h2>
+    Signup
+  </h2>
+  <div
+    className="c-form__cols"
+  >
+    <div
+      className="c-form__col"
+    >
+      <Field
+        label="Email Address"
+        name="email"
+        placeholder="someone@example.com"
+        register={
+          Object {
+            "name": "email",
+          }
+        }
+        type="email"
+      />
+      <Field
+        label="Password"
+        name="password"
+        placeholder="********"
+        register={
+          Object {
+            "name": "password",
+          }
+        }
+        type="password"
+      />
+      <Field
+        label="Confirm password"
+        name="confirm"
+        placeholder="********"
+        register={
+          Object {
+            "name": "confirm",
+          }
+        }
+        type="password"
+      />
+      <Field
+        label="Username"
+        name="username"
+        placeholder="JohnSmith"
+        register={
+          Object {
+            "name": "username",
+          }
+        }
+        type="text"
+      />
+    </div>
+    <div
+      className="c-form__col"
+    >
+      <Field
+        label="First name"
+        name="first_name"
+        placeholder="John"
+        register={
+          Object {
+            "name": "first_name",
+          }
+        }
+        type="text"
+      />
+      <Field
+        label="Last name"
+        name="last_name"
+        placeholder="Smith"
+        register={
+          Object {
+            "name": "last_name",
+          }
+        }
+        type="text"
+      />
+      <Field
+        label="Gender"
+        name="gender"
+        options={
+          Array [
+            "Unspecified",
+            "Male",
+            "Female",
+          ]
+        }
+        register={
+          Object {
+            "name": "gender",
+          }
+        }
+        type="select"
+      />
+      <Field
+        label="Avatar image URL"
+        name="image_url"
+        placeholder="https://images.com/john-smith.jpg"
+        register={
+          Object {
+            "name": "image_url",
+          }
+        }
+        type="url"
+      />
+    </div>
+  </div>
+  <Button
+    className=""
+    disabled={false}
+    type="submit"
+  >
+    Sign up
+  </Button>
+</form>
+`;

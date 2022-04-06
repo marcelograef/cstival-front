@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render successfully 1`] = `
+<footer
+  className="c-footer"
+>
+  <div
+    className="o-shell"
+  >
+    <p>
+      © 
+      2021
+      . 
+      All rights reserved.
+    </p>
+    <p>
+      Change language:
+      <button
+        disabled={false}
+        key="0"
+        onClick={[Function]}
+      >
+        de
+      </button>
+      <button
+        disabled={true}
+        key="1"
+        onClick={[Function]}
+      >
+        en
+      </button>
+    </p>
+  </div>
+</footer>
+`;

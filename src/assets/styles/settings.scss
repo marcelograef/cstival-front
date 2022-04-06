@@ -1,0 +1,24 @@
+@use 'sass:list';
+@use 'sass:color';
+@use 'sass:string';
+
+$color-base: #333;
+$color-white: #fff;
+$color-black: #000;
+$color-error: #f00;
+$color-action: #00f;
+$color-warning: #ff0;
+
+$color-red: #d65050;
+
+$bluff-color: #f34646;
+$raise-color: rgba(39, 199, 18, 0.938);
+$call-color: rgb(255, 251, 0);
+$fold-color: rgba(139, 138, 138, 0.8);
+
+$timing: 0.4s;
+$easing: ease-in-out;
+$small-desktop: 1439px;
+$tablet-landscape: 1279px;
+$tablet-portrait: 1023px;
+$mobile: 767px;

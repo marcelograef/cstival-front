@@ -1,0 +1,50 @@
+.header {
+	max-width: 75.125rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	& > h1 {
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	margin-bottom: 20px;
+}
+
+.sections {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+	& > h4 {
+		-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		-moz-user-select: none; /* Old versions of Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+		user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome, Edge, Opera and Firefox */
+
+		cursor: pointer;
+		width: 100%;
+		background-color: $color-base;
+		color: $color-white;
+		border: 1px solid rgb(156, 155, 155);
+		&:first-child {
+			border-radius: 5px 0 0 5px;
+		}
+		&:last-child {
+			border-radius: 0 5px 5px 0;
+		}
+		padding: 10px;
+		&.active {
+			color: $color-red;
+			border: 1px solid rgb(156, 155, 155);
+		}
+	}
+}

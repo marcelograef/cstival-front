@@ -1,0 +1,47 @@
+$size-card: 2.4rem;
+
+.card {
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid gray;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	width: $size-card;
+	height: $size-card;
+	font-size: calc($size-card/2);
+	line-height: $size-card;
+	text-align: center;
+
+	&[data-type='pair'] {
+		background-color: rgba(195, 207, 231, 0.8);
+	}
+	&[data-type='suited'] {
+		background-color: rgba(253, 232, 213, 0.8);
+	}
+	&[data-type='offsuited'] {
+		background-color: rgba(240, 236, 236, 0.8);
+	}
+
+	&.call {
+		background-color: $call-color;
+	}
+	&.raise {
+		background-color: $raise-color;
+	}
+
+	&.bluff {
+		background-color: $bluff-color;
+	}
+
+	&.fold {
+		background-color: $fold-color;
+	}
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome, Edge, Opera and Firefox */
+}

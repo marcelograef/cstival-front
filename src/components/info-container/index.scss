@@ -1,0 +1,76 @@
+.table-info {
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+
+	& > div {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		height: 50px;
+		width: 100%;
+
+		& div {
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	.info {
+		font-size: 1.3rem;
+		font-weight: 600;
+		.span01 {
+			padding: 5px;
+			background-color: rgb(190, 227, 248);
+		}
+		.span02 {
+			padding: 5px;
+			background-color: rgb(255, 204, 204);
+		}
+	}
+}
+
+.avg-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.avg {
+	margin: 3px 2px;
+	padding: 5px;
+	background-color: rgb(230, 146, 78);
+	font-weight: 800;
+	border-radius: 5px;
+	border: 2px solid rgba(129, 127, 127, 0.7);
+
+	&[data-action='RAISE'] {
+		background-color: $raise-color;
+	}
+	&[data-action='CALL'] {
+		background-color: $call-color;
+	}
+	&[data-action='FOLD'] {
+		background-color: $fold-color;
+	}
+	&[data-action='BLUFF'] {
+		background-color: $bluff-color;
+	}
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column !important;
+
+	& > div {
+		display: flex;
+		text-align: left;
+		border-top: 1px solid rgb(155, 155, 155);
+		box-sizing: border-box;
+		padding: 15px;
+	}
+}
