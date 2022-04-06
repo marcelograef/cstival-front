@@ -26,7 +26,7 @@
 		"locale:scan": "i18next-scanner --config ./src/i18n/scanner-config.ts './src/**/*.{ts,tsx}'",
 		"postbuild": "workbox generateSW",
 		"run-dist": "yarn build && npx ecstatic ./dist --root=./dist --host=localhost --port=80 --baseDir=/",
-		"start": "yarn tsc:enums && webpack serve --mode development --hot",
+		"start": "yarn tsc:enums && webpack serve --mode development --hot --disable-host-check",
 		"svg": "svgo-viewbox -i ./src/assets",
 		"test": "jest",
 		"test:coverage": "jest --coverage",
