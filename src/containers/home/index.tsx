@@ -42,9 +42,6 @@ export const Home: React.FunctionComponent = () => {
 					<h4 className={`${draw === 'PUSH' ? 'active' : ''}`} onClick={() => onClick('PUSH')}>
 						Push por Pos. y Stack
 					</h4>
-					<h4 className={`${draw === 'CUSTOM' ? 'active' : ''}`} onClick={() => onClick('CUSTOM')}>
-						Custom Range
-					</h4>
 				</div>
 				{draw == 'OR' && <OpenRaise />}
 				{draw == 'ROR' && <ResponseOR />}
