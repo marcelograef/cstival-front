@@ -1,7 +1,7 @@
 import { TableState } from '@src/store/interfaces';
 import axios from 'axios';
 
-const url = "http://ec2-54-163-62-9.compute-1.amazonaws.com";
+const url = "http://ec2-54-163-62-9.compute-1.amazonaws.com:3001";
 
 export const getData = async (key: string, situation: string): Promise<TableState | void> => {
 	return axios
