@@ -1,9 +1,11 @@
 import { TableState } from '@src/store/interfaces';
 import axios from 'axios';
 
+const url = "http://ec2-54-163-62-9.compute-1.amazonaws.com";
+
 export const getData = async (key: string, situation: string): Promise<TableState | void> => {
 	return axios
-		.get('http://localhost:3001/ranges', {
+		.get(`${url}/ranges`, {
 			params: {
 				key,
 				situation
@@ -28,7 +30,7 @@ export const getData = async (key: string, situation: string): Promise<TableStat
 export const saveRange = async (body: any): Promise<TableState> => {
 	return axios({
 		method: 'post',
-		url: 'http://localhost:3001/ranges',
+		url: `${url}/ranges`,
 		data: body
 	}).then(r => {
 		return r.data[0];
